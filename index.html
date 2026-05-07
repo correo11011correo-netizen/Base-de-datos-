@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Control de Stock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Bienvenido al Control de Stock Kiosco</h2>
+  <p class="welcome">
+    Podés buscar productos por nombre o categoría.<br>
+    Comandos disponibles: <b>buscar</b>, <b>listar productos</b>, <b>listar clientes</b>, 
+    <b>eliminar producto</b>, <b>agregar producto</b>, <b>agregar precio</b>.
+  </p>
+  
+  <input id="search" type="text" placeholder="Buscar producto o categoría...">
+  <button onclick="buscarProducto()">Buscar</button>
+
+  <div id="formAgregar">
+    <input id="nombre" type="text" placeholder="Nombre producto">
+    <input id="precio" type="number" placeholder="Precio">
+    <input id="categoria" type="text" placeholder="Categoría">
+    <button onclick="agregarProducto()">Agregar</button>
+  </div>
+  
+  <div id="productos"></div>
+  <script src="client.js"></script>
+</body>
+</html>
