@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+.welcome {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+#search, #nombre, #precio, #categoria {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 0;
+}
+button {
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+}
+#formAgregar {
+  text-align: center;
+  margin: 15px 0;
+}
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 300px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.card button {
+  margin: 5px 5px 0 0;
+  padding: 8px 12px;
+  font-size: 14px;
+}
